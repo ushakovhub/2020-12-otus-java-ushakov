@@ -1,0 +1,2 @@
+rootProject.name = '2020-12-otus-java-ushakov'
+include 'L01-gradle'
