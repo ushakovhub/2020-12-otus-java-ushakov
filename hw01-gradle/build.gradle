@@ -10,11 +10,11 @@ dependencies {
     implementation 'com.google.guava:guava'
 }
 shadowJar {
-    archiveBaseName.set('gradleHW')
+    archiveBaseName.set('helloOtus')
     archiveVersion.set('0.1')
     archiveClassifier.set('')
     manifest {
-        attributes 'Main-Class': 'ru.ushakov.App'
+        attributes 'Main-Class': 'ru.ushakov.HelloOtus'
     }
 }
 
